@@ -1,9 +1,7 @@
-function App() {
-  return (
-    <div className="App">
-      <h3>Hello word</h3>
-    </div>
-  )
+import Widget from "./components/Widget"
+
+export function App() {
+  return <Widget />
 }
 
-export default App
+
